@@ -52,11 +52,6 @@ const yeastieBoyz = `
   <marquee>Loaves on Loaves on Loaves</marquee>
 `;
 
-const maintenanceContent = `
-  <h1>We'll be right back!</h1>
-  <p>DJ Toggle is currently fine-tuning his LaunchDarkly-powered turntables. Please check back later!</p>
-`;
-
 const ldClient = LDClient.initialize(process.env.LAUNCHDARKLY_CLIENT_SIDE_ID, {
   key: 'anonymous'
 });
